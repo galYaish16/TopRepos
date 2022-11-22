@@ -1,0 +1,18 @@
+.repo-item {
+  padding: 5px;
+  cursor: pointer;
+}
+.repo-item img {
+  width: 3vw;
+}
+
+.repo-item > td {
+  border-bottom-width: 2px;
+  border-bottom-color: rgb(151, 150, 148);
+  border-bottom-style: dashed;
+}
+
+.repo-item:hover {
+  font-weight: bold;
+  background-color: rgb(212, 168, 58);
+}

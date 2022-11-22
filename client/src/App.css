@@ -1,0 +1,8 @@
+.App {
+  background-color: rgb(247, 245, 245);
+}
+
+.list-of-repo-items {
+  height: 80vh;
+  overflow-y: scroll;
+}

@@ -1,0 +1,10 @@
+.repo-field {
+  display: flex;
+  padding: 1px;
+  margin: 1px;
+  border-bottom: 2px inset #223344;
+}
+
+.repo-field > .title {
+  font-weight: bold;
+}

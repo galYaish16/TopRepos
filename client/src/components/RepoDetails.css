@@ -1,0 +1,39 @@
+.repo-details {
+  padding: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  position: absolute;
+  top: 15vh;
+  left: 10vw;
+  height: 75vh;
+  width: 75vw;
+  background-color: rgb(212, 168, 58);
+  z-index: 10;
+  box-shadow: 2px 2px 3px 5px #333333;
+  border-radius: 5px;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 5vh;
+}
+
+#detailsHeader > * {
+  width: 4vw;
+  height: 4vw;
+}
+
+#login {
+  min-width: 10vw;
+}
+
+#name {
+  min-width: 40vw;
+}
+
+.repo-details button {
+  cursor: pointer;
+}

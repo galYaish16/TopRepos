@@ -1,0 +1,22 @@
+.menu {
+  padding: 5px;
+  background-color: rgb(212, 168, 58);
+  margin-bottom: 10px;
+}
+
+.menu > span {
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 2px;
+  padding-right: 2px;
+  font-weight: bolder;
+}
+
+#current {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  font-weight: bold;
+}

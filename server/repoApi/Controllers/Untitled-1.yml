@@ -1,0 +1,3 @@
+curl -G https://api.github.com/search/repositories --data-urlencode "q=created:>`date -v-1m '+%Y-%m-%d'`" --data-urlencode "sort=stars" --data-urlencode "order=desc" -H "Accept: application/json"
+
+curl -G https://api.github.com/search/repositories --data-urlencode "q=created:>2022-09-01" --data-urlencode "sort=stars" --data-urlencode "order=desc" -H "Accept: application/json"
